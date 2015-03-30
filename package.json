@@ -1,6 +1,6 @@
 {
   "name": "bcx-temple",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yet another templating engine. Port of PHP 'temple' library.",
   "main": "index.js",
   "scripts": {
