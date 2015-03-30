@@ -2,9 +2,9 @@
 /**
  * Module dependencies.
  */
-var sm = require('bcx-sscalar-modifier.js');
-// var nm = require('./number_modifier.js');
-// var om = require('./object_modifier.js');
+var sm = require('bcx-scalar-modifier');
+var om = require('bcx-object-modifier');
+var nm = require('bcx-numeric-modifier');
 
 exports.doText = doText;
 // exports.getTemplate = getTemplate;
@@ -67,12 +67,12 @@ function applyModifier(value, name, params, data, options) {
         case 'string':
             return sm.apply(value, name, params, data, options);
             break;
-        // case 'object':
-        //     return om.apply(value, name, params, data, options);
-        //     break;
-        // case 'number':
-        //     return nm.apply(value, name, params, data, options);
-        //     break;
+        case 'object':
+            return om.apply(value, name, params, data, options);
+            break;
+        case 'number':
+            return nm.apply(value, name, params, data, options);
+            break;
     }
 
     return value;

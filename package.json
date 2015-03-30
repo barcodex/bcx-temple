@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/barcodex/bcx-temple/issues"
   },
-  "homepage": "https://github.com/barcodex/bcx-temple"
+  "homepage": "https://github.com/barcodex/bcx-temple",
+  "dependencies" : {
+    "bcx-scalar-modifier": "latest",
+    "bcx-object-modifier": "latest",
+    "bcx-numeric-modifier": "latest" 
+  }
 }
