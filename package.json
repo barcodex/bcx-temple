@@ -1,0 +1,23 @@
+{
+  "name": "bcx-temple",
+  "version": "0.0.1",
+  "description": "Yet another templating engine. Port of PHP 'temple' library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:barcodex/bcx-temple.git"
+  },
+  "keywords": [
+    "nodejs",
+    "templating"
+  ],
+  "author": "Anvarzon Zurajev <barcodex@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/barcodex/bcx-temple/issues"
+  },
+  "homepage": "https://github.com/barcodex/bcx-temple"
+}
